@@ -7,12 +7,12 @@ public class SingleNumber {
 		
 		
 	}
-	public static void singleNumber(int[] nums) {
+	public static int singleNumber(int[] nums) {
         int x=0;
         for(int z: nums){
             x^=z;
         }
-        //return x;
-        System.out.println("Element appear only once in array is: " + x);
+        return x;
+       // System.out.println("Element appear only once in array is: " + x);
     }
 }
